@@ -1,0 +1,25 @@
+Modular:
+
+( a + b) % c = ( ( a % c ) + ( b % c ) ) % c
+( a * b) % c = ( ( a % c ) * ( b % c ) ) % c
+( a – b) % c = ( ( a % c ) – ( b % c ) ) % c
+
+For division it doesnt work like this
+
+Negative numbers:
+
+int mod(int a, int m)
+{
+    return (a%m + m) % m;
+}
+
+Modulo multiplicative Inverse(MMI): 
+In mathematics, the modular multiplicative inverse of an integer ‘a’ is an integer ‘x’ such that the product ax is congruent to 1 with respect to the modulus m. 
+ax = 1( mod m) 
+The remainder after dividing ax by the integer m is 1. 
+
+For (x/y)%m:
+y_inv = findMMI(y, M);
+z = (x * y_inv) % M;
+
+findMMI:
