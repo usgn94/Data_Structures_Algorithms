@@ -1,0 +1,28 @@
+Preference order:
+1. (), {}, []
+2. ^          -> R-L
+3. *, /       -> L-R
+4. +,-        -> L-R
+
+Explanation of Left to Right Associative:
+Ex: 1 + 2*4 + 6/3
+*,/ have same precedence, hence we go from left to right
+so we first calculate 2*4 and then 6/3
+
+Explanation for Right to left Associative:
+Ex: 2^2^3
+since it is right to left first we calculate 2^3 then 2^(2^3)
+ans = 2^8 = 256
+if you take it as l-r we get ans = 4^3 = 64 which is wrong
+
+Prefix: <operator><operand><operand>
+Ex a*b + c
+* have high precendence sor first * then +
+
+*ab + c (entire *ab is operand and c is one operand)
+*ab c +
+
+Postfix: <operand><operand><operator>
+Ex: a*b + c
+ab* + c
+ab*c + 
