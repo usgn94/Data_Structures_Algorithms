@@ -1,0 +1,19 @@
+-Classes/Objects
+-Getters/Setters
+-Constructors ->Default
+              ->Parametesial
+              ->copy
+              ->copy assignment operator
+-Destructor
+-Shallow copy anf Deep copy
+-Function and operator overloading
+-Hiding(Abstraction)
+-Polymorphism ->runtime
+              ->compile time
+-Interitance ->Single
+             ->Multiple
+             ->Hirerchial
+-Virtual Functions
+-virtual pointers
+-how to build your own class with conditions
+-Exception Handling in c++
