@@ -15,6 +15,6 @@ void bubbleSort(int a[], int n)
     }
 }
 
-//worst time complexity O(n)
-//Best time complexity O(1)
+//worst time complexity O(n^2)
+//Best time complexity O(n)
 
