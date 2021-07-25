@@ -1,6 +1,8 @@
 
 /*
-Suppose you have N eggs and you want to determine from which floor in a K-floor building you can drop an egg such that it doesn't break. You have to determine the minimum number of attempts you need in order find the critical floor in the worst case while using the best strategy.There are few rules given below. 
+Suppose you have N eggs and you want to determine from which floor in a K-floor building you can drop an egg such that it doesn't break. 
+You have to determine the minimum number of attempts you need in order find the critical floor in the worst case while using the best strategy.
+There are few rules given below. 
 
 An egg that survives a fall can be used again.
 A broken egg must be discarded.
